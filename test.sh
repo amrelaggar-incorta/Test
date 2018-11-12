@@ -9,3 +9,5 @@ SourceDirSize= $(VAR=`du -shb . | awk '{print $1}'`; VAR2=$(for i in `ls -l | gr
 
 echo $SourceDirSize
 #new change1
+#new change2
+echo $SourceDirSize
